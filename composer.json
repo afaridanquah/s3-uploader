@@ -1,0 +1,21 @@
+{
+    "name": "dafari/uploader",
+    "description": "Library to upload files to s3 bucket",
+    "type": "library",
+    "require": {
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Daniel Afari",
+            "email": "dafari@nextekdevelopment.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Nextek\\Uploader\\" : "packages/dafari/uploader/src"
+        }
+    }
+}
