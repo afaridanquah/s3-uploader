@@ -1,0 +1,15 @@
+{
+    "name": "dafari/uploader",
+    "description": "File uploader for amazon s3 bucket",
+    "type": "library",
+    "require": {
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Afari",
+            "email": "dafari@nextekdevelopment.com"
+        }
+    ]
+}
