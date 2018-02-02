@@ -1,6 +1,6 @@
 # s3-uploader
 
-#Installation
+# Installation
 composer require dafari/uploader
 
 In your config/app.php
@@ -9,5 +9,5 @@ Add Nextek\Uploader\UploaderServiceProvider::class to your providers
 Add 'Uploader' => Nextek\Uploader\UploadFacade::class, to your alias
 
 
-#Usage
+# Usage
 Uploader::store(file);
